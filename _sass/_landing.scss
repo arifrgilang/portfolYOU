@@ -7,6 +7,39 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 576px){
+.container2 {
+    max-width: 480px;
+}}
+
+@media only screen and (max-width: 768px){
+.container2 {
+    max-width: 560px;
+}}
+
+@media only screen and (max-width: 1024px){
+.container2 {
+    max-width: 760px;
+}}
+
+@media only screen and (max-width: 1130px){
+.container2 {
+    max-width: 1000px;
+}}
+
+@media only screen and (max-width: 1300px){
+.container2 {
+    max-width: 1100px;
+}
+}
+
+.container2 {
+    max-width: 1180px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
 #dummy {
   padding-top: 100%; /* 1:1 aspect ratio */
 }
