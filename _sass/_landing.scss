@@ -270,3 +270,42 @@
   background: #ededf3;
 }
 
+.author__right .author__image::after {
+  content: "";
+  position: absolute;
+  top: -2%;
+  left: -8.7%;
+  transform: rotate(
+-45deg
+);
+  display: block;
+  width: 130px;
+  height: 100px;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(66,53,208,0.7), rgba(66,53,208,0.7) 2px, transparent 2px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(66,53,208,0.7), rgba(66,53,208,0.7) 2px, transparent 2px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(66,53,208,0.7), rgba(66,53,208,0.7) 2px, transparent 2px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(66,53,208,0.7), rgba(66,53,208,0.7) 2px, transparent 2px, transparent 100%);
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+  user-select: none;
+}
+
+.lazy.loaded {
+  opacity: 1;
+}
+
+.lazy {
+  opacity: 0;
+  transition: 0.8s ease-in-out;
+}
+
+img, .lightense-wrap {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+}
